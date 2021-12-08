@@ -23,3 +23,13 @@ a:active {
   color: green;
     text-decoration: none;
 }
+
+::-moz-selection { /* Code for Firefox */
+  color: black;
+
+}
+
+::selection {
+  color: black;
+
+}
