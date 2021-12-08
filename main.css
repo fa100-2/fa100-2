@@ -15,11 +15,11 @@ a   {
 }
 
 a:hover {
-  background-color: green;
+  color: limegreen;
     text-decoration: none;
 }
 
 a:active {
-  background-color: grey;
+  color: grey;
     text-decoration: none;
 }
