@@ -9,10 +9,17 @@ body {
     color: white;
 }
 
+a   {
+    color:white;
+    text-decoration: none;
+}
+
 a:hover {
   background-color: green;
+    text-decoration: none;
 }
 
 a:active {
   background-color: grey;
+    text-decoration: none;
 }
