@@ -1,4 +1,7 @@
-background: #BDCEC8;
-background: -moz-linear-gradient(left, #BDCEC8 0%, #A3A4A4 50%, #C3C5C0 100%);
-background: -webkit-linear-gradient(left, #BDCEC8 0%, #A3A4A4 50%, #C3C5C0 100%);
-background: linear-gradient(to right, #BDCEC8 0%, #A3A4A4 50%, #C3C5C0 100%);
+
+body {
+    background: #BDCEC8;
+    background: -moz-linear-gradient(left, #BDCEC8 0%, #A3A4A4 50%, #C3C5C0 100%);
+    background: -webkit-linear-gradient(left, #BDCEC8 0%, #A3A4A4 50%, #C3C5C0 100%);
+    background: linear-gradient(to right, #BDCEC8 0%, #A3A4A4 50%, #C3C5C0 100%);
+}
