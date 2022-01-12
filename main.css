@@ -60,7 +60,7 @@ a:active {
   bottom: 3px;
   z-index: 51;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 4vh;
+  font-size: 5vw;
   color: #00ff00;
 }
 
@@ -72,7 +72,7 @@ a:active {
   right: 3px;
   z-index: 51;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 4vh;
+  font-size: 5vw;
   color: #00ff00;
   text-align: right;
 }
