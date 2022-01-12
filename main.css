@@ -44,17 +44,17 @@ a:active {
 }
 
 ::-moz-selection { /* Code for Firefox */
-  color: blue;
+  color: #00ff00;
 
 }
 
 ::selection {
-  color: blue;
+  color: #00ff00;
 
 }
 
 .bottomleft-text {
-  width: 100%;
+  width: 50%;
   height: 4%;
   position: fixed;
   bottom: 3px;
@@ -62,11 +62,10 @@ a:active {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4vh;
   color: #00ff00;
-  width: 100%;
 }
 
 .bottomright-text {
-  width: 100%;
+  width: 50%;
   height: 4%;
   position: fixed;
   bottom: 3px;
@@ -75,6 +74,5 @@ a:active {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4vh;
   color: #00ff00;
-  width: 100%;
   text-align: right;
 }
