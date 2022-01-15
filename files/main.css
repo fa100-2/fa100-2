@@ -1,0 +1,79 @@
+
+ body {
+    /* background: #BDCEC8;
+    background: -moz-linear-gradient(left, #BDCEC8 0%, #A3A4A4 50%, #C3C5C0 100%);
+    background: -webkit-linear-gradient(left, #BDCEC8 0%, #A3A4A4 50%, #C3C5C0 100%);
+    background: linear-gradient(to right, #BDCEC8 0%, #A3A4A4 50%, #C3C5C0 100%);
+    */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10vh;
+    color: white;
+    width: 100%;
+}
+
+video#bgvid { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  /*background: url(polina.jpg) no-repeat;*/
+  background-size: cover; 
+}
+
+a   {
+    color:white;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #00ff00;
+    text-decoration: none;
+}
+
+a:active {
+  color: limegreen;
+    text-decoration: none;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #00ff00;
+
+}
+
+::selection {
+  color: #00ff00;
+
+}
+
+.bottomleft-text {
+  width: 75%;
+  height: 4%;
+  position: fixed;
+  left: 3px;
+  bottom: 3px;
+  z-index: 51;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4vh;
+  color: #00ff00;
+}
+
+.bottomright-text {
+  width: 75%;
+  height: 4%;
+  position: fixed;
+  bottom: 3px;
+  right: 3px;
+  z-index: 51;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4vh;
+  color: #00ff00;
+  text-align: right;
+}
